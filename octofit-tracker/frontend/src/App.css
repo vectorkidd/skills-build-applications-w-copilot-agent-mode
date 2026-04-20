@@ -1,0 +1,141 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #94d2ff 0%, #d6ecff 35%, #f5f7fb 100%);
+  color: #102a43;
+}
+
+body {
+  background: #eaf4ff;
+  color: #102a43;
+}
+
+.navbar {
+  border: none;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 14px 30px rgba(16, 42, 67, 0.12);
+}
+
+.navbar-brand {
+  color: #0b3d91;
+  letter-spacing: 0.03em;
+}
+
+.navbar-brand:hover {
+  color: #072b6d;
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0b3d91 0%, #56b4f5 100%);
+  padding: 4px;
+  object-fit: contain;
+  box-shadow: 0 10px 20px rgba(11, 61, 145, 0.14);
+}
+
+.nav-link {
+  color: #334e68;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #0b3d91;
+  background-color: rgba(11, 61, 145, 0.08);
+  border-radius: 0.6rem;
+}
+
+.card {
+  border: none;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.card-header {
+  background: linear-gradient(90deg, #0b3d91 0%, #57bdfa 100%);
+  border-bottom: none;
+  color: #ffffff;
+}
+
+.card-body {
+  color: #102a43;
+}
+
+.card-title {
+  color: #0b3d91;
+}
+
+.table {
+  margin-bottom: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.table th,
+.table td {
+  border-color: rgba(16, 42, 67, 0.12);
+}
+
+.table thead th {
+  background: #0b3d91;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(11, 61, 145, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(11, 61, 145, 0.12);
+}
+
+.btn-primary {
+  background: #0b3d91;
+  border-color: #0b3d91;
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(11, 61, 145, 0.18);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #0f4f9f;
+  border-color: #0f4f9f;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #0b3d91;
+}
+
+.btn-link:hover {
+  color: #072b6d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0b3d91;
+}
+
+a {
+  color: #0b3d91;
+}
+
+a:hover {
+  color: #0f4f9f;
+  text-decoration: underline;
+}
+
+.small-text-break {
+  word-break: break-word;
+}
+
+.modal-backdrop-custom {
+  background-color: rgba(0, 0, 0, 0.35);
+}
